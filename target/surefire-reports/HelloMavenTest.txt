@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: HelloMavenTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.273 sec <<< FAILURE! - in HelloMavenTest
+retrieveFlightsAddsAppropriate(HelloMavenTest)  Time elapsed: 3.458 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<application/json[]> but was:<application/json[;charset=UTF-8]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at HelloMavenTest.retrieveFlightsAddsAppropriate(HelloMavenTest.java:19)
+

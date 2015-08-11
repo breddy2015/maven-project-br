@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <unzip dest="C:\Users\00808911\AnypointStudio\workspace\maven-project\target\test-classes" src="C:\Users\00808911\AnypointStudio\workspace\maven-project\target\test-classes/cloveretl-engine.zip"/>
+</target>
+</project>
